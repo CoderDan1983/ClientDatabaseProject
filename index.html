@@ -2,49 +2,58 @@
 
 <html>
 	<head>
-		<title>Welcome to the Client Database Project</title>
+		<title>Welcome to the Client Database Project</title><br>
 		<link rel="stylesheet" type="text/css" href="style.css">
 	</head>
 
 	<body>
-		<label for="clientName">Name</label>
-		<input id="clientName" type="text">
+		<fieldset>
+			<legend>Order Form</legend><br>
+			<label for="clientName0">Name</label>
+			<input id="clientName0" type="text"><br>
 
-		<label for="clientCardNumber">Card Number</label>
-		<input id="clientCardNumber" type="text">
+			<label for="clientCardNumber0">Card Number</label>
+			<input id="clientCardNumber0" type="text"><br>
 
-		<label for="clientProduct">Product</label>
-		<select id="clientProduct">
-			<option value="largeSombrero">A 50 foot Sombrero</option>
-			<option value="frozenHotSauce">A Gallon of Frozen Hot Sauce</option>
-			<option value="discoGolfSet">Disco Golf Set</option>
-			<option value="oldSandwich">A sandwich from the 16th century</option>
-			<option value="50 Foot Sombrero">A 50 foot Sombrero</option>
-			<option value="50 Foot Sombrero">A 50 foot Sombrero</option>
-			<option value="50 Foot Sombrero">A 50 foot Sombrero</option>
-			<option value="50 Foot Sombrero">A 50 foot Sombrero</option>
-			<option value="50 Foot Sombrero">A 50 foot Sombrero</option>
-			<option value="50 Foot Sombrero">A 50 foot Sombrero</option>
-			<option value="50 Foot Sombrero">A 50 foot Sombrero</option>
-			<option value="50 Foot Sombrero">A 50 foot Sombrero</option>
-		</select>
+			<label for="clientProduct">Product</label>
+			<select id="clientProduct">
+				<option value="largeSombrero">A 50 foot Sombrero</option>
+				<option value="frozenHotSauce">A Gallon of Frozen Hot Sauce</option>
+				<option value="discoGolfSet">Disco Golf Set</option>
+				<option value="oldSandwich">A sandwich from the 16th century</option>
+				<option value="sheepCoupons">I Owe Ewes</option>
+				<option value="50 Foot Sombrero">A 50 foot Sombrero</option>
+				<option value="50 Foot Sombrero">A 50 foot Sombrero</option>
+				<option value="50 Foot Sombrero">A 50 foot Sombrero</option>
+				<option value="50 Foot Sombrero">A 50 foot Sombrero</option>
+				<option value="50 Foot Sombrero">A 50 foot Sombrero</option>
+				<option value="50 Foot Sombrero">A 50 foot Sombrero</option>
+				<option value="50 Foot Sombrero">A 50 foot Sombrero</option>
+			</select><br>
+
+			<input id="clientAmount">
+
+			<button id="orderButton">Place Order</button><br>
+
+			<fieldset>
+				<legend>Other Tasks</legend><br>
+
+				<select id="otherTasksDropdown">
+					<option value="showPreviousPurchases">Show Previous Purchases</option>
+					<option value="showMostCommonlyPurchasedItem">Show Previous Purchases</option>
+					<option value="showPreviousPurchases">Show Previous Purchases</option>
+					<option value="showPreviousPurchases">Show Previous Purchases</option>
+				</select><br>
+				<button id="otherTasksButton">Place Order</button><br>
+			</fieldset>
+		</fieldset>
+
+
 		<!--
 		clientId, client JoinDate, client most recent activity,
 		client cash spent.
 		<label for="clientJoinDate">Name</label>
 		<input id="clientName" type="text">-->
-
-		<label for="clientName">Name</label>
-		<input id="clientName" type="text">
-
-		<label for="clientName">Name</label>
-		<input id="clientName" type="text">
-
-		<label for="clientName">Name</label>
-		<input id="clientName" type="text">
-
-		<label for="clientName">Name</label>
-		<input id="clientName" type="text">
 
 		<script src="index.js"></script>
 	</body>
