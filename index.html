@@ -7,6 +7,8 @@
 	</head>
 
 	<body>
+		<div id="display"></div>
+		<div id="total">Total: 0</div>
 		<fieldset>
 			<legend>Order Form</legend><br>
 			<label for="clientName0">Name</label>
@@ -15,24 +17,20 @@
 			<label for="clientCardNumber0">Card Number</label>
 			<input id="clientCardNumber0" type="text"><br>
 
-			<label for="clientProduct">Product</label>
-			<select id="clientProduct">
-				<option value="largeSombrero">A 50 foot Sombrero</option>
-				<option value="frozenHotSauce">A Gallon of Frozen Hot Sauce</option>
-				<option value="discoGolfSet">Disco Golf Set</option>
-				<option value="oldSandwich">A sandwich from the 16th century</option>
-				<option value="sheepCoupons">I Owe Ewes</option>
-				<option value="50 Foot Sombrero">A 50 foot Sombrero</option>
-				<option value="50 Foot Sombrero">A 50 foot Sombrero</option>
-				<option value="50 Foot Sombrero">A 50 foot Sombrero</option>
-				<option value="50 Foot Sombrero">A 50 foot Sombrero</option>
-				<option value="50 Foot Sombrero">A 50 foot Sombrero</option>
-				<option value="50 Foot Sombrero">A 50 foot Sombrero</option>
-				<option value="50 Foot Sombrero">A 50 foot Sombrero</option>
+			<label for="clientProduct0">Product</label>
+			<select id="clientProduct0">
+				<option value="largeSombrero">A 50 foot Sombrero ($30)</option>
+				<option value="frozenHotSauce">A Gallon of Frozen Hot Sauce ($5)</option>
+				<option value="discoGolfSet">Disco Golf Set ($45)</option>
+				<option value="oldSandwich">A sandwich from the 16th century ($80)</option>
+				<option value="sheepCoupons">I Owe Ewes ($7)</option>
 			</select><br>
 
-			<input id="clientAmount">
+			<label for="clientAmount0">Amount</label>
+			<input id="clientAmount0">
 
+			<button id="addToCart">Add To Cart</button><br>
+			<button id="clearCartButton">Clear Cart</button><br>
 			<button id="orderButton">Place Order</button><br>
 
 			<fieldset>
